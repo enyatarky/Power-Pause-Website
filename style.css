@@ -1,0 +1,138 @@
+/* Basic page styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f7f4ef;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* Header and navigation */
+header {
+  background-color: #ffffff;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h1 {
+  margin: 0;
+  color: #2f5d50;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #2f5d50;
+  font-weight: bold;
+}
+
+/* Sections */
+section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+#hero {
+  text-align: center;
+  padding: 90px 20px;
+}
+
+#hero h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+#hero a {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: #2f5d50;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+/* Movement cards */
+.card-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.movement-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  flex: 1;
+  min-width: 200px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* Recommendation tool */
+select,
+button {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #2f5d50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #24483e;
+}
+
+#recommendationResult {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 30px;
+  background-color: #ffffff;
+  border-top: 1px solid #ddd;
+}
+
+/* Mobile layout */
+@media (max-width: 700px) {
+  nav {
+    flex-direction: column;
+  }
+
+  nav ul {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+
+  #hero h2 {
+    font-size: 30px;
+  }
+
+  .card-container {
+    flex-direction: column;
+  }
+}
