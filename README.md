@@ -1,16 +1,17 @@
 # Power Pause Website
 
-Power Pause is a responsive one-page website for a movement-based office card game. The goal of the website is to explain the concept and let users interact with the idea through a shuffle feature and a break recommendation tool.
+Power Pause is a responsive website that promotes a movement-based office card game designed to encourage employees to take short movement breaks throughout the workday. The website introduces the concept, explains the benefits of movement breaks and allows users to interact with the game through different features.
 
 ## Features
 
-- Responsive one-page layout
-- Navigation links to different sections
-- Accordion sections for extra information
+- Responsive design for desktop and mobile devices
+- Navigation bar with links to all sections
+- Interactive accordion sections
 - Example movement cards
-- Shuffle deck feature
-- Break recommendation tool
-- GSAP animations
+- Shuffle Deck feature with GSAP animations
+- Movement Break Recommendation Tool
+- Separate FAQ page with interactive dropdown questions
+- Published using GitHub Pages
 
 ## Technologies Used
 
@@ -22,7 +23,12 @@ Power Pause is a responsive one-page website for a movement-based office card ga
 
 ## How to Use
 
-Open the website and scroll through the sections to learn about Power Pause. Users can click the shuffle button to draw a random movement card. They can also answer the recommendation questions to receive a suitable movement break.
+Open the website.
+Navigate through the different sections to learn about Power Pause.
+View the example movement cards.
+Click Shuffle the Deck to receive a random movement card with an animation.
+Use the Recommendation Tool to receive a movement break based on your needs.
+Visit the FAQ page to read answers to common questions about the game.
 
 ## What I Learned
 
